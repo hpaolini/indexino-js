@@ -1,0 +1,23 @@
+[book]
+name=the animal book
+
+#comment
+
+[section]
+name=domestic
+color=#00ff00
+
+1,dog
+2,dog food
+3,cat
+cat food
+4-6,bird
+
+[section]
+name=wild
+color=red
+
+10,snake
+shark
+8-9,bear
+7,lion
