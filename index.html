@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Indexino - The index parser</title>
+		<style>
+			body {
+				background: #fefefe;
+				font-family: sans-serif;
+				color: #1a1a1a;
+				font-size: 14px;
+			}
+			.center {
+				text-align: center;
+			}
+			div#container {
+				width: 500px;
+				margin: 0 auto;
+				padding-top: 20px;
+			}
+			div.wrapper {
+			  display: flex;
+			}
+
+			div.left {
+			  flex: 0 0 10%;
+			}
+
+			div.right {
+			  flex: 1;
+			}
+			textarea#text-input{
+				width: 100%;
+				height: 350px;
+			}
+			div.misc {
+				background: #eee;
+				padding: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="container">
+			<h2 class="center">Indexino</h2>
+			<h3 class="center">The index parser</h3>
+			<div class="wrapper">
+				<div class="left"><p>1.</p></div>
+				<div class="right">
+					<p>Load your index file...</p>
+					<p><input type="file" id="file-input"/></p>
+					<p>or pasted it below.</p>
+					<p><textarea id="text-input"></textarea></p>
+				</div>
+			</div>
+			<div class="wrapper">
+				<div class="left"><p>2.</p></div>
+				<div class="right">
+					<div class="misc">
+						<label for="sort-select">Sort by:</label>
+						<select id="sort-select">
+							<option value="section">section</option>
+							<option value="keyword" selected="true">keyword (default)</option>
+						</select>
+						<br/>
+						<label><input type="checkbox" id="book-ref" checked>Show book name</label>
+						<br/>
+						<label><input type="checkbox" id="section-ref" checked>Show section name</label>
+						<br/>
+						<label><input type="checkbox" id="section-float-ref">Right-align section name</label>
+						<br/>
+					</div>
+				</div>
+			</div>
+			<br/>
+			<div class="wrapper">
+				<div class="left"><p>3.</p></div>
+				<div class="right"><p><button id="generate-index-blob" type="button">Generate Index</button></p></div>
+			</div>
+			<p class="center">by <a href="https://hpaolini.com">hunter paolini</a></p>
+		</div>
+		<script src="./indexino.js" type="text/javascript"></script>
+	</body>
+</html>
