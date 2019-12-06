@@ -66,7 +66,7 @@ A keyword must be preceded by a page (number or range) and a comma.
 4-6,bird
 ```
 
-You may omit the page when keywords are in the same page.
+You may omit the page when it's the same as the previous.
 
 ```
 3,cat
