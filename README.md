@@ -1,6 +1,6 @@
 # Indexino
 
-Indexino parses book indexes from INI*-like* configuration files. It's a rapid alternative to CSV and Excel.
+Indexino parses book indexes from INI-like configuration files. It's a rapid alternative to CSV and Excel.
 
 ## Sample configuration
 
