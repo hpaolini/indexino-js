@@ -110,7 +110,7 @@ open index.html
 [http://hpaolini.github.io/indexino-js](http://hpaolini.github.io/indexino-js)
 
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Pull requests are welcomed. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
 [GNU GPLv2](https://choosealicense.com/licenses/gpl-2.0/)
